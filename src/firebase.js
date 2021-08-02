@@ -2,16 +2,13 @@ import firebase from "firebase/app";
 import "firebase/auth";
 
 
-const firebaseConfig = {
-    apiKey: "AIzaSyDOCAbC123dEf456GhI789jKl01-MnO",
-    authDomain: "myapp-project-123.firebaseapp.com",
-    databaseURL: "https://myapp-project-123.firebaseio.com",
-    projectId: "myapp-project-123",
-    storageBucket: "myapp-project-123.appspot.com",
-    messagingSenderId: "65211879809",
-    appId: "1:65211879909:web:3ae38ef1cdcb2e01fe5f0c",
-    measurementId: "G-8GSGZQ44ST"
-  };
+const app = firebase.initializeApp ({
+      apiKey: "AIzaSyAU0oDvJh3mv0ViKVrGLt5YeJDpOyjFdgA",
+      authDomain: "quickly-notes-7002e.firebaseapp.com",
+      projectId: "quickly-notes-7002e",
+      storageBucket: "quickly-notes-7002e.appspot.com",
+      messagingSenderId: "970607695770",
+      appId: "1:970607695770:web:a830b2c726301191814c23"
+  });
   
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  export default app;
